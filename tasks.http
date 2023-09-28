@@ -1,0 +1,23 @@
+###traer tareas funciona correctamente
+
+GET http://localhost:3000/api/posteo
+
+###crear posteo
+
+POST http://localhost:3000/api/posteo
+
+
+content-type: application/json
+
+
+//Devuelve null igual
+
+ { 
+    "titulo": "titulo2",
+    "image": "https://http.cat/images/102.jpg",
+    "posteo":"texto de pie"
+}
+
+###eliminar posteo > funciona correctamente
+###el nro al final es el id del posteo a eliminar!
+DELETE http://localhost:3000/api/posteo/2
