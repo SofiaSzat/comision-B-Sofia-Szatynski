@@ -59,8 +59,8 @@
       </form>
       <script src="java.js"></script>
   </body>
-  
-  
-  
+
   </html>
 -->
+
+Este archivo HTML contenia un formulario para realizar los posteos, finalmente decidi ponerlo todo en el INDEX.HTML
